@@ -1,0 +1,64 @@
+# Byte-compiled / compiled Python files
+*.py[cod]
+__pycache__/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Django specific files
+media/
+staticfiles/
+
+# Node.js / React specific files
+node_modules/
+dist/
+build/
+*.cache
+
+# Dependency files
+/.pnp
+.pnp.js
+
+# Build outputs
+build/
+dist/
+
+# Coverage files
+coverage/
+.coverage
+nosetests.xml
+test-results/
+
+# Docker related files
+*.swp
+docker-compose.override.yml
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Sensitive files
+*.key
+*.pem
